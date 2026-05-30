@@ -154,6 +154,15 @@
     <v:String x:Key="SkinsPage_SelectSkinFirst">Select a skin first.</v:String>
     <v:String x:Key="SkinsPage_DownloadedStatus">Downloaded and opened Minecraft-ready .mcpack.</v:String>
     <v:String x:Key="SkinsPage_DownloadFailed">Download failed. Try again.</v:String>
+    <v:String x:Key="SkinsPage_FavesTitle">Fave's Skins</v:String>
+    <v:String x:Key="SkinsPage_MostPopular">(most popular one)</v:String>
+    <v:String x:Key="SkinsPage_CollectionDescription">All included skins are packed together in one Minecraft-ready skin pack, so you do not need to download them one by one.</v:String>
+    <v:String x:Key="SkinsPage_DownloadsButton">DOWNLOADS</v:String>
+    <v:String x:Key="SkinsPage_AllSkinsHelp">Click DOWNLOADS to import every skin together.</v:String>
+    <v:String x:Key="SkinsPage_PreparingCollection">Preparing Fave's Skins...</v:String>
+    <v:String x:Key="SkinsPage_CollectionDownloadedStatus">Downloaded and opened Fave's Skins with {0} skins.</v:String>
+    <v:String x:Key="SkinsPage_CollectionCountFormat">{0} skins included in one pack.</v:String>
+    <v:String x:Key="SkinsPage_OtherComingSoon">OTHER SKINS COMING IN NEXT UPDATES</v:String>
     <v:String x:Key="SkinsPage_PreviewNoticeTitle">Skins preview notice</v:String>
     <v:String x:Key="SkinsPage_PreviewNotice">the skins previews are made by AI and are upscaled so they might not show a true preview of the skins: so please try them ingame!</v:String>
 

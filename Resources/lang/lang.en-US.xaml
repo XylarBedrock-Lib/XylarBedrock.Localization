@@ -1,0 +1,681 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:ignore="http://www.galasoft.ch/ignore"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <!--#region Main Section-->
+
+    <v:String x:Key="LanguageString">English - United States</v:String>
+
+    <!--#region MainWindow -->
+
+    <v:String x:Key="MainWindow_Title">XylarBedrock v0.0.0.5</v:String>
+    <v:String x:Key="MainWindow_Disclaimer">NOT ASSOCIATED OR APPROVED BY MOJANG</v:String>
+
+    <!--#endregion-->
+    
+    <!-- #region CommunityPage -->
+
+    <v:String x:Key="CommunityPage_SupportText">❤ Support Development ❤</v:String>
+
+    <!-- #endregion -->
+
+    <!--#region ToolbarButtons -->
+
+    <v:String x:Key="ToolbarButtons_NewsButton_Text">News</v:String>
+    <v:String x:Key="ToolbarButtons_MinecraftEdition_Text">Bedrock Edition</v:String>
+    <v:String x:Key="ToolbarButtons_Minecraft_Text">MINECRAFT:</v:String>
+    <v:String x:Key="ToolbarButtons_ProfileButton_ProfileType_Text">Profile</v:String>
+    <v:String x:Key="ToolbarButtons_SettingsButton_Text">Settings</v:String>
+    <v:String x:Key="ToolbarButtons_AddonsButton_Text">Addons</v:String>
+    <v:String x:Key="ToolbarButtons_VersionsButton_Text">Versions</v:String>
+    <v:String x:Key="ToolbarButtons_SkinsButton_Text">Skins</v:String>
+
+    <!--#endregion-->
+
+    <!--#region UpdateButton-->
+
+    <v:String x:Key="UpdateButton_NewUpdate_Text">New Update!</v:String>
+    <v:String x:Key="UpdateButton_Download_Text">Click to download!</v:String>
+
+    <!--#endregion-->
+
+    <!--#region ProgressBar -->
+
+    <v:String x:Key="ProgressBar_Downloading">Downloading</v:String>
+    <v:String x:Key="ProgressBar_Installing">Installing</v:String>
+    <v:String x:Key="ProgressBar_Launching">Launching</v:String>
+    <v:String x:Key="ProgressBar_Extracting">Extracting</v:String>
+    <v:String x:Key="ProgressBar_Uninstalling">Uninstalling</v:String>
+    <v:String x:Key="ProgressBar_RegisteringPackage">Registering Package</v:String>
+    <v:String x:Key="ProgressBar_RemovingPackage">Unregistering Package</v:String>
+    <v:String x:Key="ProgressBar_BackingUp">Backing up Save Data</v:String>
+
+    <!--#endregion-->
+
+    <!--#region ProfileButton -->
+
+    <v:String x:Key="ProfileButton_ManageProfiles_Text">Manage Profiles</v:String>
+    <v:String x:Key="ProfileButton_ProfileSettings_Text">Profile Settings</v:String>
+    <v:String x:Key="ProfileButton_AddProfile_Text">Add Profile</v:String>
+    <v:String x:Key="ProfileButton_RemoveProfile_Text">Remove Profile</v:String>
+    <v:String x:Key="ProfileButton_ChooseAccount_Text">CHOOSE PROFILE</v:String>
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+    <!--#region Game Section -->
+
+    <!--#region GameTab -->
+
+    <v:String x:Key="GameTab_Title">MINECRAFT: BEDROCK EDITION</v:String>
+    <v:String x:Key="GameTab_PlayButton_Text">Play</v:String>
+    <v:String x:Key="GameTab_PlayButton_Kill_Text">Kill</v:String>
+    <v:String x:Key="GameTab_CreatorToolsButton_Text">Creator Tools</v:String>
+    <v:String x:Key="GameTab_InstallationsButton_Text">Installations</v:String>
+    <v:String x:Key="GameTab_FAQButton_Text">FAQ</v:String>
+    <v:String x:Key="GameTab_PatchNotesButton_Text">Patch notes</v:String>
+
+    <!--#endregion-->
+    
+    <!--#region CreatorToolsPage -->
+
+    <v:String x:Key="CreatorToolsPage_Editor">Bedrock Editor</v:String>
+    <v:String x:Key="CreatorToolsPage_Slogan">Create stunning worlds at scale</v:String>
+    <v:String x:Key="CreatorToolsPage_PlayEditorButton">Launch Editor</v:String>
+
+    <!--#endregion-->
+
+    <!--#region InstallationsPage -->
+
+    <v:String x:Key="InstallationsPage_AddButton">New installation</v:String>
+    <v:String x:Key="InstallationsPage_PlayButton">Play</v:String>
+
+    <v:String x:Key="InstallationsPage_SortBy_LatestPlayed">Latest Played</v:String>
+    <v:String x:Key="InstallationsPage_SortBy_Name">Name</v:String>
+    <v:String x:Key="InstallationsPage_SortBy_None">None</v:String>
+
+    <v:String x:Key="InstallationsPage_SearchBar_Content">Installation name</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
+
+    <!--#endregion-->
+
+    <!--#region EditInstallationScreen -->
+
+    <v:String x:Key="EditInstallationScreen_Title">Create new installation</v:String>
+    <v:String x:Key="EditInstallationScreen_AltTitle">Edit installation</v:String>
+
+    <v:String x:Key="EditInstallationScreen_CreateButton">Create</v:String>
+    <v:String x:Key="EditInstallationScreen_AltCreateButton">Save</v:String>
+
+    <v:String x:Key="EditInstallationScreen_LatestPreview">Latest preview</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestBeta">Latest beta</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestRelease">Minecraft for Windows</v:String>
+
+    <v:String x:Key="EditInstallationScreen_NameSubtitle">NAME</v:String>
+    <v:String x:Key="EditInstallationScreen_VersionSubtitle">VERSION</v:String>
+    <v:String x:Key="EditInstallationScreen_DirectorySubtitle">DIRECTORY</v:String>
+
+    <v:String x:Key="EditInstallationScreen_NameHintText">&lt;unnamed installation&gt;</v:String>
+    <v:String x:Key="EditInstallationScreen_DirectoryHintText">&lt;default path&gt;</v:String>
+
+    <!--#endregion-->
+
+    <!--#region PatchNotesPage -->
+
+    <v:String x:Key="PatchNotesPage_MorePatchNotes">More patch notes</v:String>
+    <v:String x:Key="PatchNotesPage_MorePatchNotesBeta">More beta patch notes</v:String>
+    <v:String x:Key="FaqPage_Title">FAQ</v:String>
+    <v:String x:Key="FaqPage_Subtitle">Quick answers about safety, temp files, the Store build, and what the launcher repairs by itself.</v:String>
+    <v:String x:Key="FaqPage_Q1_Title">Is it safe?</v:String>
+    <v:String x:Key="FaqPage_Q1_Text">Yes. The launcher works around the official Minecraft for Windows app, downloads addons, and lets Windows open them normally. It also checks the official VC++ runtime if your PC is missing it.</v:String>
+    <v:String x:Key="FaqPage_Q2_Title">Why does it use TEMP files?</v:String>
+    <v:String x:Key="FaqPage_Q2_Text">TEMP is only used as a quick parking spot for addon downloads and the Microsoft VC++ installer. Once the file is needed, Windows opens it and the launcher can clean up the leftovers more easily.</v:String>
+    <v:String x:Key="FaqPage_Q3_Title">Why do I need Minecraft for Windows from Microsoft Store?</v:String>
+    <v:String x:Key="FaqPage_Q3_Text">Because XylarBedrock targets only the official Microsoft Store release. If the real game is not installed, the launcher does not unlock the main flow.</v:String>
+    <v:String x:Key="FaqPage_Q4_Title">What does crash recovery actually repair?</v:String>
+    <v:String x:Key="FaqPage_Q4_Text">If the last session ends badly, the next boot clears broken addon downloads, wipes stale launcher temp files, reloads the addon cache, and refreshes the bundled mod pack before normal use.</v:String>
+
+    <!--#endregion-->
+
+    <!--#region SkinsPage -->
+
+    <v:String x:Key="SkinsPage_AddButton">New...</v:String>
+    <v:String x:Key="SkinsPage_ImportButton">Import...</v:String>
+    <v:String x:Key="SkinsPage_Title">SKINS</v:String>
+    <v:String x:Key="SkinsPage_Credits">Skins credits: xFaveXEditz</v:String>
+    <v:String x:Key="SkinsPage_NoSkinsFound">No skins found in Resources/skins.</v:String>
+    <v:String x:Key="SkinsPage_NoSkinsFoundShort">No skins found.</v:String>
+    <v:String x:Key="SkinsPage_BackButton">BACK</v:String>
+    <v:String x:Key="SkinsPage_NextButton">NEXT</v:String>
+    <v:String x:Key="SkinsPage_DownloadButton">DOWNLOAD</v:String>
+    <v:String x:Key="SkinsPage_SelectSkinHelp">Select the skin u like and click the download button below!</v:String>
+    <v:String x:Key="SkinsPage_SelectSkinFirst">Select a skin first.</v:String>
+    <v:String x:Key="SkinsPage_DownloadedStatus">Downloaded to Downloads\XylarBedrock Skins.</v:String>
+    <v:String x:Key="SkinsPage_DownloadFailed">Download failed. Try again.</v:String>
+    <v:String x:Key="SkinsPage_PreviewNoticeTitle">Skins preview notice</v:String>
+    <v:String x:Key="SkinsPage_PreviewNotice">the skins previews are made by AI and are upscaled so they might not show a true preview of the skins: so please try them ingame!</v:String>
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+    <!--#region News Section -->
+
+    <!--#region LauncherNewsPage -->
+
+    <v:String x:Key="LauncherNewsPage_Title_Text">Latest Build Changes</v:String>
+    <v:String x:Key="LauncherNewsPage_Build_Text">Build</v:String>
+    <v:String x:Key="LauncherNewsPage_Changes_Text">Changes:</v:String>
+    <v:String x:Key="LauncherNewsPage_CheckForUpdates">Check for Updates</v:String>
+    <v:String x:Key="LauncherNewsPage_GetUpdates">Get Updates</v:String>
+    <v:String x:Key="LauncherNewsPage_CurrentBuild_Text">Current</v:String>
+
+    <!--#endregion-->
+
+    <!--#region NewsScreenPage -->
+
+    <v:String x:Key="NewsScreen_LauncherTabTitle">Launcher</v:String>
+    <v:String x:Key="NewsScreen_OfficialTabTitle">Official</v:String>
+    <v:String x:Key="NewsScreen_MinecraftForumsTitle">Minecraft Forums</v:String>
+    <v:String x:Key="NewsScreen_JavaNDungeonsTabTitle">Community / Dungeons</v:String>
+
+    <v:String x:Key="NewsScreen_SearchBar_Content">News title</v:String>
+
+    <v:String x:Key="NewsScreen_JavaNDungeons_JavaCheckbox">Minecraft.net News</v:String>
+    <v:String x:Key="NewsScreen_JavaNDungeons_DungeonsCheckbox">Minecraft Dungeons</v:String>
+    <v:String x:Key="NewsScreen_JavaNDungeons_BedrockCheckbox">Minecraft for Windows</v:String>
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+    <!--#region Settings Section -->
+
+    <!--#region SettingsTab -->
+
+    <v:String x:Key="SettingsTab_Title">SETTINGS</v:String>
+    <v:String x:Key="SettingsTab_GeneralButton">General</v:String>
+    <v:String x:Key="SettingsTab_AccountsButton">Accounts</v:String>
+    <v:String x:Key="SettingsTab_AboutButton">About</v:String>
+    <v:String x:Key="SettingsTab_VersionsButton">Versions</v:String>
+
+    <!--#endregion-->
+
+    <!--#region GeneralSettingsScreen -->
+    <v:String x:Key="GeneralSettingsScreen_LanguageSubtitle">LANGUAGE</v:String>
+    <v:String x:Key="GeneralSettingsScreen_ThemeSubtitle">LAUNCHER THEME</v:String>
+
+
+    <v:String x:Key="GeneralSettingsScreen_LauncherSettingsSubtitle">LAUNCHER SETTINGS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_ShortcutSettingsSubtitle">SHORTCUT SETTINGS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_KeepAppx">Keep Appx Package</v:String>
+    <v:String x:Key="GeneralSettingsScreen_KeepLauncherOpen">Keep the Launcher open while games are running</v:String>
+    <v:String x:Key="GeneralSettingsScreen_AnimateTransitions">Animate transitions between pages in the Launcher</v:String>
+    <v:String x:Key="GeneralSettingsScreen_AnimatePlayButton">Animate play button on the Play pages in the Launcher</v:String>
+    <v:String x:Key="GeneralSettingsScreen_FetchVersionsFromMicrosoftStore">Allow additional checking for new versions directly from the Microsoft Store</v:String>
+    
+
+    <v:String x:Key="GeneralSettingsScreen_BedrockEditionSettingsSubtitle">MINECRAFT: BEDROCK EDITION SETTINGS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_SupportCreatorSubtitle">SUPPORT CREATOR</v:String>
+
+    <v:String x:Key="GeneralSettingsScreen_UpdatesSubtitle">LAUNCHER UPDATES</v:String>
+
+    <v:String x:Key="GeneralSettingsScreen_SupportCreatorButton">Support creator</v:String>
+
+    <v:String x:Key="GeneralSettingsScreen_BackupsSubtitle">BACKUP OPTIONS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupButton">Backup Save Data</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Backup Save Data (Preview)</v:String>
+    <v:String x:Key="GeneralSettingsPage_HeroTitle">Settings</v:String>
+    <v:String x:Key="GeneralSettingsPage_HeroSubtitle">Language, theme, storage and the bits you may want to change once and forget about.</v:String>
+    <v:String x:Key="GeneralSettingsPage_DiscordButton">Xylar Inc. Discord</v:String>
+    <v:String x:Key="GeneralSettingsPage_BackupNowButton">Backup now</v:String>
+    <v:String x:Key="GeneralSettingsPage_LauncherTitle">Launcher</v:String>
+    <v:String x:Key="GeneralSettingsPage_LauncherText">Simple launcher options. No extra noise.</v:String>
+    <v:String x:Key="GeneralSettingsPage_LanguageText">Choose the language used around the launcher.</v:String>
+    <v:String x:Key="GeneralSettingsPage_ThemeText">Change the background theme without changing the whole layout.</v:String>
+    <v:String x:Key="GeneralSettingsPage_KeepOpenText">Leave XylarBedrock open while Minecraft is running.</v:String>
+    <v:String x:Key="GeneralSettingsPage_AnimateText">Show page transition animations around the launcher.</v:String>
+    <v:String x:Key="GeneralSettingsPage_StorageTitle">Storage</v:String>
+    <v:String x:Key="GeneralSettingsPage_StorageText">Pick where launcher data lives and restart when you want the change to stick.</v:String>
+    <v:String x:Key="GeneralSettingsPage_PortableText">Portable mode keeps launcher data next to the exe.</v:String>
+    <v:String x:Key="GeneralSettingsPage_PathText">This is the folder XylarBedrock uses for its own files.</v:String>
+    <v:String x:Key="GeneralSettingsPage_HelpTitle">Backup and help</v:String>
+    <v:String x:Key="GeneralSettingsPage_HelpText">Need the server or want a manual backup? Both are here.</v:String>
+    <v:String x:Key="GeneralSettingsPage_RuntimeText">The launcher also checks the Microsoft VC++ x64 runtime on startup and installs it if it is missing.</v:String>
+    <v:String x:Key="GeneralSettingsPage_OpenDiscordButton">Open Discord</v:String>
+    <!--#endregion-->
+    
+    <!-- #region VersionsPage -->
+
+
+    <v:String x:Key="VersionsPage_InstallVersion">Install from Local File</v:String>
+    <v:String x:Key="VersionsPage_Title">VERSIONS</v:String>
+    <v:String x:Key="VersionsPage_BetaDescription">this is A NEW beta version chooser so it will have some bugs... if any issue please report it on the Xylar Inc. official discord server!!</v:String>
+    <v:String x:Key="VersionsPage_MinecraftForWindowsTitle">MINECRAFT FOR WINDOWS</v:String>
+    <v:String x:Key="VersionsPage_DownloadableStoreVersions">Downloadable Store versions</v:String>
+
+
+    <!--#endregion-->
+
+    <!--#region AcountsSettingsPage -->
+
+    <v:String x:Key="AcountsSettingsPage_SelectedAccount_Subtitle">SELECTED ACCOUNT</v:String>
+    <v:String x:Key="AcountsSettingsPage_InsiderHub_Text">INSIDER SETTINGS</v:String>
+    <v:String x:Key="AcountsSettingsPage_InsiderHubNew_Text">Normal Settings</v:String>
+    <v:String x:Key="AcountsSettingsPage_InsiderHubLegacy_Text">Legacy Settings</v:String>
+    <v:String x:Key="AcountsSettingsPage_ManageAccounts_Text">Manage Accounts</v:String>
+    <v:String x:Key="AcountsSettingsPage_AccountSettings_Text">ACCOUNT SETTINGS</v:String>
+
+    <!--#endregion-->
+
+    <!--#region AboutPage -->
+
+    <v:String x:Key="AboutPage_Title">ABOUT XYLARBEDROCK</v:String>
+    <v:String x:Key="AboutPage_DevelopedBy_Text">DEVELOPED BY</v:String>
+    <v:String x:Key="AboutPage_OriginallyDevelopedBy_Text">FORKED FROM THE WORK OF</v:String>
+    <v:String x:Key="AboutPage_SpecialThanks_Text">SPECIAL THANKS TO</v:String>
+
+    <v:String x:Key="AboutPage_McMrArm_Text">For creating the original Minecraft Windows 10 Version downloader (which this work derives from)</v:String>
+    <v:String x:Key="AboutPage_Mojang_Text">For Minecraft!!!</v:String>
+    <v:String x:Key="AboutPage_CurrentBuild">Current Build: </v:String>
+    <v:String x:Key="AboutPage_VersionLabel">Version </v:String>
+    <v:String x:Key="AboutPage_IntroText">Hi! This is a new launcher based on WPF/.NET and is an unofficial launcher for Minecraft: Bedrock Edition.</v:String>
+    <v:String x:Key="AboutPage_QuoteText">It focuses on a cleaner Play flow, quick Addons, skins, version tools, and a smoother everyday experience for Bedrock players. This is a community-made project and is not affiliated with Mojang, Microsoft, or Xbox.</v:String>
+    <v:String x:Key="AboutPage_Signature">- Mrmariix</v:String>
+    <v:String x:Key="AboutPage_LinksTitle">Links</v:String>
+    <v:String x:Key="AboutPage_LinksText">Discord is here if you want the official server. Updates are here too.</v:String>
+    <v:String x:Key="AboutPage_DiscordButton">Join Discord</v:String>
+    <v:String x:Key="AboutPage_CheckUpdatesButton">Check for updates</v:String>
+    <v:String x:Key="AboutPage_GetUpdatesButton">Get updates</v:String>
+    <v:String x:Key="AboutPage_OriginTitle">Original project</v:String>
+    <v:String x:Key="AboutPage_OriginText">Built on the open-source BedrockLauncher foundation and redesigned as a custom XylarBedrock launcher experience.</v:String>
+    <v:String x:Key="AboutPage_GithubButton">Open GitHub</v:String>
+    <v:String x:Key="AboutPage_TeamTitle">Team</v:String>
+    <v:String x:Key="AboutPage_TeamText">The people keeping this build alive.</v:String>
+    <v:String x:Key="AboutPage_MrmariixRole">FOUNDER</v:String>
+    <v:String x:Key="AboutPage_MrmariixText">Founder. Idea, direction and the message behind the launcher.</v:String>
+    <v:String x:Key="AboutPage_SasyRole">VICE FOUNDER</v:String>
+    <v:String x:Key="AboutPage_SasyText">Vice founder. Helped push the Xylar side of the project forward.</v:String>
+    <v:String x:Key="AboutPage_RedShadowRole">SPECIAL THANKS</v:String>
+    <v:String x:Key="AboutPage_RedShadowText">The Red Shadow gave the idea that kicked this app into motion.</v:String>
+    <v:String x:Key="AboutPage_CreditsTitle">Credits</v:String>
+    <v:String x:Key="AboutPage_CreditsText">Minecraft for Windows belongs to its owners. XylarBedrock does not claim the original launcher work and exists as a maintained custom fork with extra launcher-side features.</v:String>
+    <v:String x:Key="AboutPage_XFaveRole">SKIN CREDITS</v:String>
+    <v:String x:Key="AboutPage_XFaveText">Credits to XFaveXEditz for the skins used in the launcher.</v:String>
+
+    <!--#endregion-->
+
+    <!--#region GeneralSettingsScreen_PathOptions -->
+
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_LauncherOptions_Text">PATH OPTIONS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_PathSubtitle_Text">STORAGE DIRECTORY</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_PortableMode_Text">Enable Portable Mode</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_RestartButton_Text">Apply &amp; Restart</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_Notice_Text">* These settings will restart the launcher</v:String>
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+    <!--#region Dialog Section -->
+
+    <!--#region FirstLaunch -->
+
+    <v:String x:Key="FirstLaunch_WelcomeTitle">Welcome!</v:String>
+    <v:String x:Key="FirstLaunch_WelcomeSubTitle">Welcome to XylarBedrock v0.0.0.5!</v:String>
+    <v:String x:Key="FirstLaunch_CreateProfileSubTitle">Create your first profile!</v:String>
+    <v:String x:Key="FirstLaunch_AlmostThereTitle">Almost there!</v:String>
+    <v:String x:Key="FirstLaunch_OneThingTitle">One thing...</v:String>
+    <v:String x:Key="FirstLaunch_OneThingSubtitle">Just check over these to make sure they're just how you like it.</v:String>
+    <v:String x:Key="FirstLaunch_ChooseAccountTitle">Choose an Insider Account</v:String>
+    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* This will be used to verify and download betas. You must be opted in the Xbox Insider Hub for the selected account to download betas. You also may need to restart the launcher or uninstall Minecraft for downloading betas to work.</v:String>
+
+    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Before using, it is highly recommended that you press backup to create an installation of your existing save data as the launcher does replace the original directory with a symbolic link which allows us to redirect save data.&#10;&#10; (Don't worry, you will not lose your data by doing this, you will only lose data if you press play and haven't backed your stuff up)</v:String>
+
+    <v:String x:Key="FirstLaunch_InstallType_Header">Save/Load Launcher Data From:</v:String>
+    <v:String x:Key="FirstLaunch_FixedInstall_Checkbox">Fixed Folder (Recommended)</v:String>
+    <v:String x:Key="FirstLaunch_PortableInstall_Checkbox">Portable/Root Folder</v:String>
+    <v:String x:Key="FirstLaunch_BackupCheckBox_Text">Backup Existing Save Data</v:String>
+    <v:String x:Key="FirstLaunch_BackupCheckBox_Subtext">(RECOMMENDED)</v:String>
+    <v:String x:Key="FirstLaunch_CloseButton">Close</v:String>
+    <v:String x:Key="FirstLaunch_BackButton">Back</v:String>
+    <v:String x:Key="FirstLaunch_GoBackButton">❮ GO BACK</v:String>
+    <v:String x:Key="FirstLaunch_CreateProfileText">PROFILE</v:String>
+    <v:String x:Key="FirstLaunch_CreateProfileButton">Create</v:String>
+    <v:String x:Key="FirstLaunch_NextButton">Next</v:String>
+    <v:String x:Key="FirstLaunch_DownloadButton">Download</v:String>
+    <v:String x:Key="FirstLaunch_FinishButton">Finish</v:String>
+
+    <!--#endregion-->
+
+    <!--#region ErrorScreen -->
+
+    <v:String x:Key="ErrorScreen_Title">ERROR</v:String>
+    <v:String x:Key="ErrorScreen_SubTitle">Launcher crashed</v:String>
+    <v:String x:Key="ErrorScreen_DefaultErrorMessage">An unexpected issue occurred and the launcher has crashed. We're sorry for the inconvenience.</v:String>
+    <v:String x:Key="ErrorScreen_CloseButton">Close</v:String>
+    <v:String x:Key="ErrorScreen_ViewCrash">View crash report</v:String>
+
+    <!--#endregion-->
+
+    <!--#region Errors -->
+
+    <v:String x:Key="Error_AuthenticationFailed_Title">Authentication failed</v:String>
+    <v:String x:Key="Error_AuthenticationFailed">Failed to authenticate. Please make sure your account is subscribed to the beta program.</v:String>
+
+    <v:String x:Key="Error_AppReregisterFailed_Title">App registration failed</v:String>
+    <v:String x:Key="Error_AppReregisterFailed">Please try again :(</v:String>
+
+    <v:String x:Key="Error_AppDeregisteringFailed_Title">App de-registration failed</v:String>
+    <v:String x:Key="Error_AppDeregisteringFailed">Please try again :(</v:String>
+
+    <v:String x:Key="Error_AppLaunchFailed_Title">Launch failed</v:String>
+    <v:String x:Key="Error_AppLaunchFailed">Please try again :(</v:String>
+
+    <v:String x:Key="Error_AppDownloadFailed_Title">Download failed</v:String>
+    <v:String x:Key="Error_AppDownloadFailed">Please try again :(</v:String>
+
+    <v:String x:Key="Error_SaveDirectoryRedirectionFailed_Title">Save redirection failed</v:String>
+    <v:String x:Key="Error_SaveDirectoryRedirectionFailed">Please try again :(</v:String>
+
+    <v:String x:Key="Error_AppUninstallFailed_Title">Uninstall failed</v:String>
+    <v:String x:Key="Error_AppUninstallFailed">Please try again :(</v:String>
+
+    <v:String x:Key="Error_AppExtractionFailed_Title">Extraction failed</v:String>
+    <v:String x:Key="Error_AppExtractionFailed">Please try again :(</v:String>
+
+    <!--#endregion-->
+
+    <!--#region NewProfile -->
+
+    <v:String x:Key="NewProfile_GoBackButton">❮ GO BACK</v:String>
+    <v:String x:Key="NewProfile_ProfileNameHeader">PROFILE NAME</v:String>
+    <v:String x:Key="NewProfile_ProfilePathHeader">PROFILE DIRECTORY</v:String>
+    <v:String x:Key="NewProfile_CreateProfileText_Error">THIS NAME IS ALREADY TAKEN</v:String>
+    <v:String x:Key="NewProfile_CreateProfileSubTitle">Create profile</v:String>
+    <v:String x:Key="NewProfile_CreateProfileButton">Create</v:String>
+    <v:String x:Key="NewProfile_EditProfileButton">Save</v:String>
+    <v:String x:Key="NewProfile_EditProfileSubTitle">Edit profile</v:String>
+
+    <!--#endregion-->
+
+    <!--#region Dialog -->
+
+    <v:String x:Key="Dialog_Item_Installation_Text">installation</v:String>
+    <v:String x:Key="Dialog_Item_Version_Text">version</v:String>
+    <v:String x:Key="Dialog_Item_Profile_Text">profile</v:String>
+
+    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Delete user data</v:String>
+
+    <v:String x:Key="Dialog_DeleteItem_Title">Delete {0} permanently</v:String>
+    <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Are you sure you want to delete &quot;{1}&quot;?&#10;This {0} will be lost forever! (A long time!)</v:String>
+
+    <v:String x:Key="Dialog_KillGame_Title">Kill Game</v:String>
+    <v:String x:Key="Dialog_KillGame_Text">This is Dangerous, and is only recommended if you get stuck. Do you still want to close the game?</v:String>
+
+    <v:String x:Key="Dialog_CloseGame_Title">Game is Still Running</v:String>
+    <v:String x:Key="Dialog_CloseGame_Text">Would you like to force close it? (without saving changes, this is only recommended if you get stuck, please close the game normally)</v:String>
+
+    <v:String x:Key="DialogBtn_YesToAll_Text">Yes To All</v:String>
+    <v:String x:Key="DialogBtn_NoToAll_Text">No To All</v:String>
+    <v:String x:Key="DialogBtn_Yes_Text">Yes</v:String>
+    <v:String x:Key="DialogBtn_No_Text">No</v:String>
+
+    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsTitle">No matching results</v:String>
+    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">We couldn't find news any content matching your search. If you have category filters &#10;turned off, try turning the back on and search again</v:String>
+
+    <v:String x:Key="Dialog_ResultPanel_Loading_Title">Loading...</v:String>
+    <v:String x:Key="Dialog_ResultPanel_Loading_Text" xml:space="preserve">Please wait!</v:String>
+
+    <v:String x:Key="Dialog_ResultPanel_Error_Title">Error</v:String>
+    <v:String x:Key="Dialog_ResultPanel_Error_Text" xml:space="preserve">:(</v:String>
+
+    <v:String x:Key="Dialog_NoContentFound_NoMatchingResultsTitle">No result</v:String>
+    <v:String x:Key="Dialog_NoContentFound_NoMatchingResultsText" xml:space="preserve">Found no items matching your search</v:String>
+
+    <!--#endregion-->
+
+    <!--#region Internal -->
+
+    <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">The file {0} already exists in the destination.\nDo you want to replace it? The old file will be lost otherwise.</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">The file {0} is not a directory. Do you want to remove it? The data from the old directory will be lost otherwise.</v:String>
+
+    <v:String x:Key="GameManager_RecoveringDataIssue_Title">Converting Existing Save Data to Installation</v:String>
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+    <!--#region Installer Section -->
+
+
+    <!--#region UI -->
+
+    <v:String x:Key="Installer_Title">XylarBedrock v0.0.0.5 Setup Wizard</v:String>
+
+    <v:String x:Key="Installer_Back_Text">Back</v:String>
+    <v:String x:Key="Installer_Next_Text">Next</v:String>
+    <v:String x:Key="Installer_Cancel_Text">Cancel</v:String>
+    <v:String x:Key="Installer_Finish_Text">Finish</v:String>
+
+    <v:String x:Key="Installer_WelcomePage_Title">Welcome to the XylarBedrock v0.0.0.5 Setup Wizard</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info_Text">This will install XylarBedrock v0.0.0.5 on your computer.</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info2_Text">It is recommended that you close all other applications before continuing.</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info3_Text">Click Next to continue, or Cancel to exit Setup.</v:String>
+
+    <v:String x:Key="Installer_LicenseAgreement_Title">License Agreement</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Info_Text">Please read the following License Agreement. You must accept the terms of this</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Info2_Text">agreement before continuing with the installation.</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Accept_Text">I accept the license.</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_DontAccept_Text">I don't accept the license.</v:String>
+
+    <v:String x:Key="Installer_InstallType_Title">Choose Install Type</v:String>
+    <v:String x:Key="Installer_InstallType_Info_Text">Select which version of the launcher you want to download</v:String>
+
+    <v:String x:Key="Installer_InstallType_InstallLocation_BetaRadioButton_Text">Beta Version</v:String>
+    <v:String x:Key="Installer_InstallType_InstallLocation_ReleaseRadioButton_Text">Release Version</v:String>
+
+    <v:String x:Key="Installer_InstallLocation_Title">Choose Install Location</v:String>
+    <v:String x:Key="Installer_InstallLocation_Info_Text">Setup will install XylarBedrock v0.0.0.5 in the following folder. To install in a different folder,</v:String>
+    <v:String x:Key="Installer_InstallLocation_Info2_Text">click Browse and select another folder.</v:String>
+
+    <v:String x:Key="Installer_InstallLocation_DestinationFolder_Header">Destination Folder</v:String>
+    <v:String x:Key="Installer_InstallLocation_Browse_Text">BROWSE</v:String>
+
+    <v:String x:Key="Installer_InstallLocation_CreateDesktopIcon_Text">Create a desktop icon</v:String>
+    <v:String x:Key="Installer_InstallLocation_AddToStartMenu_Text">Add to Start menu</v:String>
+    <v:String x:Key="Installer_InstallLocation_RegisterApp_Text">Register Program</v:String>
+
+    <v:String x:Key="Installer_InstallationProgress_LaunchOnExit_Text">Start Program on Exit</v:String>
+
+    <v:String x:Key="Installer_InstallationProgress_FilesInUse">Some of the files are currently in use by the following:</v:String>
+
+    <v:String x:Key="Installer_InstallationProgress_Title">Installing</v:String>
+    <v:String x:Key="Installer_InstallationProgress_Info_Text">Please wait while Setup installs XylarBedrock v0.0.0.5 on your computer.</v:String>
+
+    <!--#region AddonsPage -->
+
+    <v:String x:Key="AddonsPage_MarketplaceTitle">Addons</v:String>
+    <v:String x:Key="AddonsPage_LibraryButton">My Library</v:String>
+    <v:String x:Key="AddonsPage_HeroTitle">Marketplace</v:String>
+    <v:String x:Key="AddonsPage_HeroSubtitle">Browse, download and open Bedrock addons from one place.</v:String>
+    <v:String x:Key="AddonsPage_HeroShelfTitle">DISCOVER NEW ADDONS!</v:String>
+    <v:String x:Key="AddonsPage_SearchTitle">Search</v:String>
+    <v:String x:Key="AddonsPage_SearchPlaceholder">Search addons...</v:String>
+    <v:String x:Key="AddonsPage_SearchButton">Search</v:String>
+    <v:String x:Key="AddonsPage_ShowAllButton">Show all</v:String>
+    <v:String x:Key="AddonsPage_FeaturedLabel">FEATURED</v:String>
+    <v:String x:Key="AddonsPage_FeaturedText">Your bundled pack stays here at the top so you can install it fast.</v:String>
+    <v:String x:Key="AddonsPage_InstallActionsButton">Install Actions</v:String>
+    <v:String x:Key="AddonsPage_GridTitle">Addons</v:String>
+    <v:String x:Key="AddonsPage_RowOneTitle">Picked For You</v:String>
+    <v:String x:Key="AddonsPage_RowTwoTitle">More Free Add-ons</v:String>
+    <v:String x:Key="AddonsPage_LoadingSummary">Loading addons...</v:String>
+    <v:String x:Key="AddonsPage_NoResultsTitle">No add-ons found</v:String>
+    <v:String x:Key="AddonsPage_NoResultsText">Try another name or reload the list.</v:String>
+    <v:String x:Key="AddonsPage_LoadingText">Loading addons...</v:String>
+    <v:String x:Key="AddonsPage_LoadingPageFormat">Loading page {0}...</v:String>
+    <v:String x:Key="AddonsPage_PageIndicatorDefault">Page 0 / 0</v:String>
+    <v:String x:Key="AddonsPage_PageIndicatorFormat">Page {0} / {1}</v:String>
+    <v:String x:Key="AddonsPage_LoadMoreButton">Load more</v:String>
+    <v:String x:Key="AddonsPage_InstallButton">Install</v:String>
+    <v:String x:Key="AddonsPage_DownloadButton">Download</v:String>
+    <v:String x:Key="AddonsPage_FreeBadge">FREE</v:String>
+    <v:String x:Key="AddonsPage_FreeNote">The download starts here and Windows tries to open the package as soon as it finishes.</v:String>
+    <v:String x:Key="AddonsPage_LoadFailed">Couldn't load addons right now.</v:String>
+    <v:String x:Key="AddonsPage_ActionsFailed">Couldn't open the bundled addon.&#10;{0}</v:String>
+    <v:String x:Key="AddonsPage_WaitForLoad">Wait a second, addons are still loading.</v:String>
+    <v:String x:Key="AddonsPage_DownloadFailed">Couldn't download this addon right now.&#10;{0}</v:String>
+    <v:String x:Key="AddonsPage_DownloadingFormat">Downloading {0}...</v:String>
+    <v:String x:Key="AddonsPage_DownloadEngineFailed">The launcher download engine could not start on this PC.</v:String>
+    <v:String x:Key="AddonsPage_DownloadTimeout">The launcher took too long to start the addon download.</v:String>
+    <v:String x:Key="AddonsPage_UnsupportedProtocol">This addon page tried to open an unsupported external protocol instead of giving a normal addon file.</v:String>
+    <v:String x:Key="AddonsPage_UnknownAuthor">Unknown author</v:String>
+    <v:String x:Key="AddonsPage_NewTag">New</v:String>
+    <v:String x:Key="AddonsPage_UnknownDate">Unknown date</v:String>
+    <v:String x:Key="AddonsPage_UnknownTotal">unknown</v:String>
+    <v:String x:Key="AddonsPage_BedrockTag">Bedrock</v:String>
+    <v:String x:Key="AddonsPage_NoSearchResults">Nothing matched &quot;{0}&quot;.</v:String>
+    <v:String x:Key="AddonsPage_ResultSummaryFormat">{0} addons ready - page {1}/{2} - total {3}</v:String>
+    <v:String x:Key="AddonsPage_PreparingDownload">Getting your addon ready...</v:String>
+    <v:String x:Key="AddonsPage_OpeningAddon">Opening addon in Minecraft...</v:String>
+    <v:String x:Key="AddonsPage_FileMissing">Addon file not found:&#10;{0}</v:String>
+    <v:String x:Key="AddonsPage_OpenFailed">The addon downloaded, but Windows couldn't open it.&#10;{0}</v:String>
+    <v:String x:Key="AddonsPage_DefaultDescription">Open this add-on to install it from inside the launcher.</v:String>
+    <v:String x:Key="AddonsPage_UsingCacheFallback">Showing the last saved add-ons while refresh finishes later.</v:String>
+    <v:String x:Key="AddonsPage_AddOnLabel">Add-On</v:String>
+    <v:String x:Key="AddonsPage_ByAuthorFormat">By {0}</v:String>
+    <v:String x:Key="AddonsPage_DetailMetaFormat">1 pack - {0} - {1}</v:String>
+    <v:String x:Key="AddonsPage_TrustedSourceFallback">Trusted source</v:String>
+    <v:String x:Key="AddonsPage_BestSellersTitle">Best sellers</v:String>
+    <v:String x:Key="AddonsPage_MoreFromLauncherTitle">More from the launcher</v:String>
+    <v:String x:Key="AddonsPage_RelatedItemsTitle">Related items</v:String>
+    <v:String x:Key="AddonsPage_MoreFromCreatorTitle">More from the same creator</v:String>
+
+    <!--#endregion-->
+
+
+    <!--#endregion-->
+
+    <v:String x:Key="Installer_Dialog_MovingDirectoryFailed_Text">Unable to Move Directory</v:String>
+    <v:String x:Key="Installer_Dialog_MovingFileFailed_Text">Unable to Move File</v:String>
+    <v:String x:Key="Installer_Dialog_FileLocked_Text">File Being Used</v:String>
+    <v:String x:Key="Installer_Dialog_TryAgain_Text">Try Again?</v:String>
+    <v:String x:Key="Installer_Dialog_ErrorOccured_Text">An error has occurred.</v:String>
+
+    <!--#region ProgressBar -->
+
+    <v:String x:Key="Installer_ProgressBar_Downloading">Downloading...</v:String>
+    <v:String x:Key="Installer_ProgressBar_Finalizing">Finalizing...</v:String>
+    <v:String x:Key="Installer_ProgressBar_Initalizing">Initializing...</v:String>
+
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+    <!--#region General Section -->
+
+    <!--#region VersionEntries -->
+
+    <v:String x:Key="VersionEntries_LatestPreview">Latest Preview</v:String>
+    <v:String x:Key="VersionEntries_LatestBeta">Latest Beta</v:String>
+    <v:String x:Key="VersionEntries_LatestRelease">Minecraft for Windows</v:String>
+    <v:String x:Key="VersionEntries_UnnamedInstallation">&lt;unnamed installation&gt;</v:String>
+
+    <!--#endregion-->
+
+    <!--#region ThemeEntries -->
+
+    <v:String x:Key="ThemeEntries_LatestUpdate">Latest Update</v:String>
+    <v:String x:Key="ThemeEntries_Original">Original</v:String>
+    <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
+
+    <v:String x:Key="ThemeEntries_TinyTakeover">Tiny Takeover</v:String>
+    <v:String x:Key="ThemeEntries_MountsOfMayhem">Mounts of Mayhem</v:String>
+    <v:String x:Key="ThemeEntries_TheCopperAge">The Copper Age</v:String>
+    <v:String x:Key="ThemeEntries_ChaseTheSkies">Chase the Skies</v:String>
+    <v:String x:Key="ThemeEntries_SpringToLife">Spring to Life</v:String>
+    <v:String x:Key="ThemeEntries_TheGardenAwakens">The Garden Awakens</v:String>
+    <v:String x:Key="ThemeEntries_TrickyTrials">Tricky Trials</v:String>
+    <v:String x:Key="ThemeEntries_TrailsAndTales">Trails &amp; Tales</v:String>
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
+    <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Caves &amp; Cliffs (Part 1)</v:String>
+    <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
+    <v:String x:Key="ThemeEntries_NetherUpdate">Nether Update</v:String>
+    <v:String x:Key="ThemeEntries_BuzzyBeesUpdate">Buzzy Bees Update</v:String>
+    <v:String x:Key="ThemeEntries_VillagePillageUpdate">Village &amp; Pillage Update</v:String>
+    <v:String x:Key="ThemeEntries_UpdateAquatic">Update Aquatic</v:String>
+    <v:String x:Key="ThemeEntries_TechnicallyUpdated">Technically Updated</v:String>
+    <v:String x:Key="ThemeEntries_WorldOfColorUpdate">World of Color Update</v:String>
+    <v:String x:Key="ThemeEntries_ExplorationUpdate">Exploration Update</v:String>
+    <v:String x:Key="ThemeEntries_CombatUpdate">Combat Update</v:String>
+    <v:String x:Key="ThemeEntries_CatsAndPandasUpdate">Cats &amp; Pandas [Bedrock]</v:String>
+    <v:String x:Key="ThemeEntries_PocketEditionRelease">Official Release [Bedrock]</v:String>
+
+    <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">Minecraft Together (Technoblade)</v:String>
+    <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Minecraft Together</v:String>
+
+    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionStandard">Minecraft Standard Art</v:String>
+    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionDeluxe">Minecraft Deluxe Art</v:String>
+    <v:String x:Key="ThemeEntries_BedrockStandard">Bedrock Edition Standard</v:String>
+    <v:String x:Key="ThemeEntries_BedrockMaster">Bedrock Edition Master</v:String>
+    
+    <v:String x:Key="ThemeEntries_EarlyLegacyConsole">Original Legacy Console Era</v:String>
+    <v:String x:Key="ThemeEntries_MidLegacyConsole">Mid Legacy Console Era</v:String>
+    <v:String x:Key="ThemeEntries_LateLegacyConsole">Late Legacy Console Era</v:String>
+    <v:String x:Key="ThemeEntries_IndieDays">Indie Days</v:String>
+    <v:String x:Key="ThemeEntries_Dungeons">Minecraft Dungeons</v:String>
+
+
+    <!--#endregion-->
+
+    <!--#region GeneralText -->
+
+    <v:String x:Key="GeneralText_Delete">Delete</v:String>
+    <v:String x:Key="GeneralText_Edit">Edit</v:String>
+    <v:String x:Key="GeneralText_Duplicate">Duplicate</v:String>
+    <v:String x:Key="GeneralText_Remove">Remove</v:String>
+    <v:String x:Key="GeneralText_Cancel">Cancel</v:String>
+    <v:String x:Key="GeneralText_Select">Select</v:String>
+    <v:String x:Key="GeneralText_Update">Update</v:String>
+    <v:String x:Key="GeneralText_Install">Install</v:String>
+    <v:String x:Key="GeneralText_Add">Add</v:String>
+    <v:String x:Key="GeneralText_Save">Save</v:String>
+    <v:String x:Key="GeneralText_Refresh">Refresh</v:String>
+    <v:String x:Key="GeneralText_Backup">Backup</v:String>
+    <v:String x:Key="GeneralText_Versions">Versions</v:String>
+    <v:String x:Key="GeneralText_Browse">Browse</v:String>
+    <v:String x:Key="GeneralText_Reset">Reset</v:String>
+    <v:String x:Key="GeneralText_Yes">Yes</v:String>
+    <v:String x:Key="GeneralText_No">No</v:String>
+    <v:String x:Key="GeneralText_Releases">Releases</v:String>
+    <v:String x:Key="GeneralText_Betas">Betas</v:String>
+    <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Imported">Imported</v:String>
+    <v:String x:Key="GeneralText_Export">Export</v:String>
+    <v:String x:Key="GeneralText_Repair">Repair</v:String>
+
+    <v:String x:Key="GeneralText_Twitter">Twitter</v:String>
+    <v:String x:Key="GeneralText_GitHub">GitHub</v:String>
+    <v:String x:Key="GeneralText_Website">Website</v:String>
+
+    <!--#endregion-->
+
+    <!--#region GeneralSubtitles -->
+
+    <v:String x:Key="GeneralSubtitles_Versions">VERSIONS</v:String> 
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITECTURES</v:String>
+    <v:String x:Key="GeneralSubtitles_Browse">BROWSE</v:String>
+    <v:String x:Key="GeneralSubtitles_Reset">RESET</v:String>
+    <v:String x:Key="GeneralSubtitles_Categories">CATEGORIES</v:String>
+    <v:String x:Key="GeneralSubtitles_Search">SEARCH</v:String>
+    <v:String x:Key="GeneralSubtitles_SortBy">SORT BY</v:String>
+
+    <!--#endregion-->
+
+    <!--#endregion-->
+
+</ResourceDictionary>

@@ -152,7 +152,7 @@
     <v:String x:Key="SkinsPage_DownloadButton">DOWNLOAD</v:String>
     <v:String x:Key="SkinsPage_SelectSkinHelp">Select the skin u like and click the download button below!</v:String>
     <v:String x:Key="SkinsPage_SelectSkinFirst">Select a skin first.</v:String>
-    <v:String x:Key="SkinsPage_DownloadedStatus">Downloaded to Downloads\XylarBedrock Skins.</v:String>
+    <v:String x:Key="SkinsPage_DownloadedStatus">Downloaded and opened Minecraft-ready .mcpack.</v:String>
     <v:String x:Key="SkinsPage_DownloadFailed">Download failed. Try again.</v:String>
     <v:String x:Key="SkinsPage_PreviewNoticeTitle">Skins preview notice</v:String>
     <v:String x:Key="SkinsPage_PreviewNotice">the skins previews are made by AI and are upscaled so they might not show a true preview of the skins: so please try them ingame!</v:String>

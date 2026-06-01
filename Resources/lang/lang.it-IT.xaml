@@ -6,7 +6,7 @@
 
     <!--#region MainWindow -->
 
-    <v:String x:Key="MainWindow_Title">XylarBedrock v0.0.0.5</v:String>
+    <v:String x:Key="MainWindow_Title">XylarBedrock v0.0.0.5a</v:String>
     <v:String x:Key="MainWindow_Disclaimer">NOT ASSOCIATED OR APPROVED BY MOJANG</v:String>
 
     <!--#endregion-->
@@ -330,7 +330,7 @@
     <!--#region FirstLaunch -->
 
     <v:String x:Key="FirstLaunch_WelcomeTitle">Welcome!</v:String>
-    <v:String x:Key="FirstLaunch_WelcomeSubTitle">Welcome to XylarBedrock v0.0.0.5!</v:String>
+    <v:String x:Key="FirstLaunch_WelcomeSubTitle">Welcome to XylarBedrock v0.0.0.5a!</v:String>
     <v:String x:Key="FirstLaunch_CreateProfileSubTitle">Create your first profile!</v:String>
     <v:String x:Key="FirstLaunch_AlmostThereTitle">Almost there!</v:String>
     <v:String x:Key="FirstLaunch_OneThingTitle">One thing...</v:String>
@@ -463,15 +463,15 @@ turned off, try turning the back on and search again</v:String>
 
     <!--#region UI -->
 
-    <v:String x:Key="Installer_Title">XylarBedrock v0.0.0.5 Setup Wizard</v:String>
+    <v:String x:Key="Installer_Title">XylarBedrock v0.0.0.5a Setup Wizard</v:String>
 
     <v:String x:Key="Installer_Back_Text">Back</v:String>
     <v:String x:Key="Installer_Next_Text">Next</v:String>
     <v:String x:Key="Installer_Cancel_Text">Cancel</v:String>
     <v:String x:Key="Installer_Finish_Text">Finish</v:String>
 
-    <v:String x:Key="Installer_WelcomePage_Title">Welcome to the XylarBedrock v0.0.0.5 Setup Wizard</v:String>
-    <v:String x:Key="Installer_WelcomePage_Info_Text">This will install XylarBedrock v0.0.0.5 on your computer.</v:String>
+    <v:String x:Key="Installer_WelcomePage_Title">Welcome to the XylarBedrock v0.0.0.5a Setup Wizard</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info_Text">This will install XylarBedrock v0.0.0.5a on your computer.</v:String>
     <v:String x:Key="Installer_WelcomePage_Info2_Text">It is recommended that you close all other applications before continuing.</v:String>
     <v:String x:Key="Installer_WelcomePage_Info3_Text">Click Next to continue, or Cancel to exit Setup.</v:String>
 
@@ -488,7 +488,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="Installer_InstallType_InstallLocation_ReleaseRadioButton_Text">Release Version</v:String>
 
     <v:String x:Key="Installer_InstallLocation_Title">Choose Install Location</v:String>
-    <v:String x:Key="Installer_InstallLocation_Info_Text">Setup will install XylarBedrock v0.0.0.5 in the following folder. To install in a different folder,</v:String>
+    <v:String x:Key="Installer_InstallLocation_Info_Text">Setup will install XylarBedrock v0.0.0.5a in the following folder. To install in a different folder,</v:String>
     <v:String x:Key="Installer_InstallLocation_Info2_Text">click Browse and select another folder.</v:String>
 
     <v:String x:Key="Installer_InstallLocation_DestinationFolder_Header">Destination Folder</v:String>
@@ -503,7 +503,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="Installer_InstallationProgress_FilesInUse">Some of the files are currently in use by the following:</v:String>
 
     <v:String x:Key="Installer_InstallationProgress_Title">Installing</v:String>
-    <v:String x:Key="Installer_InstallationProgress_Info_Text">Please wait while Setup installs XylarBedrock v0.0.0.5 on your computer.</v:String>
+    <v:String x:Key="Installer_InstallationProgress_Info_Text">Please wait while Setup installs XylarBedrock v0.0.0.5a on your computer.</v:String>
 
     <!--#region AddonsPage -->
 
@@ -540,7 +540,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="AddonsPage_DownloadFailed">Non sono riuscito a scaricare questo addon adesso.&#10;{0}</v:String>
     <v:String x:Key="AddonsPage_DownloadingFormat">Scaricamento di {0}...</v:String>
     <v:String x:Key="AddonsPage_DownloadEngineFailed">Il motore di download del launcher non e partito su questo PC.</v:String>
-    <v:String x:Key="AddonsPage_DownloadTimeout">Il launcher ci ha messo troppo ad avviare il download dell'addon.</v:String>
+    <v:String x:Key="AddonsPage_DownloadTimeout">Il provider dell'addon non ha avviato il download del pacchetto in tempo. Riprova oppure scegli un altro add-on.</v:String>
     <v:String x:Key="AddonsPage_UnsupportedProtocol">Questa pagina addon ha provato ad aprire un protocollo esterno non supportato invece di dare un file addon normale.</v:String>
     <v:String x:Key="AddonsPage_UnknownAuthor">Autore sconosciuto</v:String>
     <v:String x:Key="AddonsPage_NewTag">Nuovo</v:String>
